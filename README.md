@@ -1,16 +1,21 @@
 # basic_widgets_app
 
-A new Flutter project.
+A simple Flutter application created as part of **Assignment #1: Getting Started, Basic App, Basic Widgets** for the cross-platform mobile development course.
 
-## Getting Started
+The app demonstrates:
+- Flutter project setup and structure
+- Basic widgets usage (Text, Image, Container, Row, Column, Padding, Card, GestureDetector, etc.)
+- Simple styling and theming
+- Basic navigation with BottomNavigationBar
+- Two themed tabs with list-detail pattern
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Two tabs** via BottomNavigationBar:
+  - **Students** — list of student profiles with avatars and names
+  - **Recipes** — list of traditional Kazakh dishes with photos and cooking time
+- Tappable cards that open detailed view pages
+- Consistent card design across both sections
+- Custom theme with green accent colors
+- Image loading with error handling
+- Navigation using `Navigator.push` and `MaterialPageRoute`
