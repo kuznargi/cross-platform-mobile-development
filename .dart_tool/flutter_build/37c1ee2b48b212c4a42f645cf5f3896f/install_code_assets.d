@@ -1,0 +1,1 @@
+ /Users/kuznargi/StudioProjects/basic_widgets_app/.dart_tool/flutter_build/37c1ee2b48b212c4a42f645cf5f3896f/native_assets.json: 
